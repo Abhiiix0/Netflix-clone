@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India-Watch Tv Shows</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/netflixico.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="hero-section">
+      <!-- <header> -->
+      <div class="navbar">
+        <img src="./img/netflix-logo.png" alt="" />
+        <div class="nav-btns">
+          <div class="select-div">
+            <select name="lang" id="lang">
+              <option value="english" selected>English</option>
+              <option value="hindi">Hindi</option>
+            </select>
+          </div>
+          <a id="signin" href="#">Sign In</a>
+        </div>
+      </div>
+      <div class="hero-info">
+        <h1>Unlimited movies, TV shows and more</h1>
+        <p>Watch anywhere. Cancel anytime</p>
+        <p>
+          Ready to watch? Enter to email to create or restart your memverships.
+        </p>
+        <form action="" class="hero-email">
+          <input type="text" placeholder="Email address" required />
+          <button>
+            Get Started
+            <img src="./img/arrow.png" alt="" />
+          </button>
+        </form>
+      </div>
+      <!-- </header> -->
+    </div>
+    <section class="tv-section">
+      <div class="container">
+        <div class="tv-section-info">
+          <h1>Enjoy on your Tv</h1>
+          <p>
+            Watch on your smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+            Blu-ray player andd more
+          </p>
+        </div>
+        <div class="tv-section-img-vd">
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+            alt=""
+            id="img1"
+          />
+          <div id="vdDiv">
+            <video
+              id="vd"
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="phone-section">
+      <div class="container">
+        <div class="phn-box">
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+            alt=""
+            id="phn-img"
+          />
+          <div class="phn-box-download">
+            <img
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+              alt=""
+            />
+            <div class="download-box">
+              <h4>Stranger Things</h4>
+              <p>Downloading...</p>
+            </div>
+            <img src="./img//icons8-download.gif" id="db" />
+          </div>
+        </div>
+        <div class="phn-info">
+          <h1>Download your show's to waatch offline</h1>
+          <p>Save your favourites easily and always have something to watch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="kid-section">
+      <div class="container">
+        <div class="kid-info">
+          <h1>Create profiles for kids</h1>
+          <p>
+            Send children on adventures with their favourite characters in a
+            space made just for them—free with your membership.
+          </p>
+        </div>
+        <img
+          src="https://occ-0-3082-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="faq-section">
+      <div class="container">
+        <h1>Frequently Asked Question</h1>
+        <div class="q-a">
+          <p class="question">
+            What is Netflix? <button onclick="hideans()">+</button>
+          </p>
+          <p class="ans" id="ans1">
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries and more – on
+            thousands of internet-connected devices. <br /><br />
+            You can watch as much as you want, whenever you want, without a
+            single ad – all for one low monthly price. There's always something
+            new to discover, and new TV shows and movies are added every week!
+          </p>
+        </div>
+        <div class="q-a">
+          <p class="question">
+            How much doe's Netflix cost??
+            <button onclick="hideans2()">+</button>
+          </p>
+          <p class="ans" id="ans2">
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries and more – on
+            thousands of internet-connected devices. <br /><br />
+            You can watch as much as you want, whenever you want, without a
+            single ad – all for one low monthly price. There's always something
+            new to discover, and new TV shows and movies are added every week!
+          </p>
+        </div>
+        <div class="q-a">
+          <p class="question">
+            where can i watch? <button onclick="hideans3()">+</button>
+          </p>
+          <p class="ans" id="ans3">
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries and more – on
+            thousands of internet-connected devices. <br /><br />
+            You can watch as much as you want, whenever you want, without a
+            single ad – all for one low monthly price. There's always something
+            new to discover, and new TV shows and movies are added every week!
+          </p>
+        </div>
+        <div class="q-a">
+          <p class="question">
+            How do i cancel? <button onclick="hideans4()">+</button>
+          </p>
+          <p class="ans" id="ans4">
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries and more – on
+            thousands of internet-connected devices. <br /><br />
+            You can watch as much as you want, whenever you want, without a
+            single ad – all for one low monthly price. There's always something
+            new to discover, and new TV shows and movies are added every week!
+          </p>
+        </div>
+        <div class="q-a">
+          <p class="question">
+            What can i watch on Netflix? <button onclick="hideans5()">+</button>
+          </p>
+          <p class="ans" id="ans5">
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries and more – on
+            thousands of internet-connected devices. <br /><br />
+            You can watch as much as you want, whenever you want, without a
+            single ad – all for one low monthly price. There's always something
+            new to discover, and new TV shows and movies are added every week!
+          </p>
+        </div>
+        <div class="q-a">
+          <p class="question">
+            Is Netflix good for kids? <button onclick="hideans6()">+</button>
+          </p>
+          <p class="ans" id="ans6">
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries and more – on
+            thousands of internet-connected devices. <br /><br />
+            You can watch as much as you want, whenever you want, without a
+            single ad – all for one low monthly price. There's always something
+            new to discover, and new TV shows and movies are added every week!
+          </p>
+        </div>
+        <div class="faq-from">
+          <p>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <form action="" class="hero-email">
+            <input type="text" placeholder="Email address" required />
+            <button>
+              Get Started
+              <img src="./img/arrow.png" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <p class="f-num">Questions? Call 000-800-100-8343</p>
+        <div class="f-links">
+          <div id="flink1">
+            <div class="link-box">
+              <a href="">Faq</a>
+              <a href="">Investor Relation</a>
+              <a href="">Privacy</a>
+              <a href="">Speed Test</a>
+            </div>
+            <div class="link-box">
+              <a href="">Help Center</a>
+              <a href="">Jobs</a>
+              <a href="">Cookies Prefreence</a>
+              <a href="">Legal Notices</a>
+            </div>
+          </div>
+          <div id="flink2">
+            <div class="link-box">
+              <a href="">Accounts</a>
+              <a href="">ways to watch</a>
+              <a href="">Corporate Information</a>
+              <a href="">Only on netflix</a>
+            </div>
+
+            <div class="link-box">
+              <a href="">Media Center</a>
+              <a href="">Terms of use</a>
+              <a href="">Contact us</a>
+            </div>
+          </div>
+        </div>
+        <p class="cc">Netflix India</p>
+      </div>
+    </section>
+    <script>
+      let que1 = document.getElementById("#que1");
+      var ans1 = document.getElementById("ans1");
+      function hideans() {
+        console.log("hi");
+        if (ans1.style.display === "block") {
+          ans1.style.display = "none";
+        } else {
+          ans1.style.display = "block";
+        }
+      }
+
+      var ans2 = document.getElementById("ans2");
+      function hideans2() {
+        console.log("hi");
+        if (ans2.style.display === "block") {
+          ans2.style.display = "none";
+        } else {
+          ans2.style.display = "block";
+        }
+      }
+      var ans3 = document.getElementById("ans3");
+      function hideans3() {
+        console.log("hi");
+        if (ans3.style.display === "block") {
+          ans3.style.display = "none";
+        } else {
+          ans3.style.display = "block";
+        }
+      }
+      var ans4 = document.getElementById("ans4");
+      function hideans4() {
+        console.log("hi");
+        if (ans4.style.display === "block") {
+          ans4.style.display = "none";
+        } else {
+          ans4.style.display = "block";
+        }
+      }
+      var ans5 = document.getElementById("ans5");
+      function hideans5() {
+        console.log("hi");
+        if (ans5.style.display === "block") {
+          ans5.style.display = "none";
+        } else {
+          ans5.style.display = "block";
+        }
+      }
+      var ans6 = document.getElementById("ans6");
+      function hideans6() {
+        console.log("hi");
+        if (ans6.style.display === "block") {
+          ans6.style.display = "none";
+        } else {
+          ans6.style.display = "block";
+        }
+      }
+      // const videoEl = document.getElementById("#vdDiv");
+      // const imgs = document.getElementById("img1");
+      // videoEl.style.height = imgs.getBoundingClientRect().bottom + "px";
+    </script>
+  </body>
+</html>
